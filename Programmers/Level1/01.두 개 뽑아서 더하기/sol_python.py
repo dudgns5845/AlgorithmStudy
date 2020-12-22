@@ -8,4 +8,5 @@ def solution(numbers):
     #이런식으로 중복을 제거하면 정렬이 되지 않는다.        
     answer = list(set(answer))
     
+    #정렬 메소드 sorted()s
     return sorted(answer)
