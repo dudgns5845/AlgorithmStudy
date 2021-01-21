@@ -5,6 +5,8 @@ int main()
 {
 	int input;
 	scanf("%d",&input);
-	//오호라... -변수 하면 음수로 출력이 되는구나...
-	printf("%d",-input);
+	//2를 곱하기
+	printf("%d",input<<1);
+	return 0;
 }
+
