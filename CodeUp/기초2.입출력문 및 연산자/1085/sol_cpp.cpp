@@ -3,10 +3,9 @@ using namespace std;
 
 int main()
 {
-	int a,b;
-	scanf("%d %d",&a,&b);
-	if(a<=b) printf("1");
-	else printf("0");
+	long long h,b,c,s;
+	scanf("%lld %lld %lld %lld",&h,&b,&c, &s);
+	printf("%.1lf MB",h*b*c*s/((float)1024*1024*8));
 	return 0;
 }
 

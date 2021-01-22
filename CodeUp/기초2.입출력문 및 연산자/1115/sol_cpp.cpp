@@ -3,10 +3,9 @@ using namespace std;
 
 int main()
 {
-	int a,b;
-	scanf("%d %d",&a,&b);
-	if(a<=b) printf("1");
-	else printf("0");
+	long long a,b;
+	scanf("%lld %lld",&a,&b);
+	printf("%lld",a+b);
 	return 0;
 }
 

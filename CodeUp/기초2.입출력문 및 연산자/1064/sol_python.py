@@ -1,5 +1,3 @@
-n1,n2 = map(int, input().split(" "))
-if(n1<=n2):
-    print("1")
-else:
-    print("0")
+a, b, c= map(int,input().split())
+num = (a if a<b else b)
+print(num if num<c else c)

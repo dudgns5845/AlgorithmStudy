@@ -1,5 +1,3 @@
-n1,n2 = map(int, input().split(" "))
-if(n1<=n2):
-    print("1")
-else:
-    print("0")
+a, b = map(int, input().split(" "))
+#파이썬의 3항 연산자는 이렇게!!
+print(a if a>b else b)

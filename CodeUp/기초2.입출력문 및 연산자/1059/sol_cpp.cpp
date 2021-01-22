@@ -3,10 +3,10 @@ using namespace std;
 
 int main()
 {
-	int a,b;
-	scanf("%d %d",&a,&b);
-	if(a<=b) printf("1");
-	else printf("0");
+	int a;
+	scanf("%d",&a);
+	//~ 틸트 연산자라고 하며 보수를 표현해준다.
+	printf("%d",~a);
 	return 0;
 }
 

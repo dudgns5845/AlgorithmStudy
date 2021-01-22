@@ -1,5 +1,5 @@
-n1,n2 = map(int, input().split(" "))
-if(n1<=n2):
-    print("1")
-else:
-    print("0")
+a,b=map(int,input().split())
+a = bool(a)
+b = bool(b)
+result = int((not a) and (not b))
+print(result)

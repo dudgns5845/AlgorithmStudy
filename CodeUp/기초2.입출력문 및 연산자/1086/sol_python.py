@@ -1,5 +1,2 @@
-n1,n2 = map(int, input().split(" "))
-if(n1<=n2):
-    print("1")
-else:
-    print("0")
+r,g,b= map(int,input().split())
+print("%.2f"%(r*g*b/(1024*1024*8))+" MB")
