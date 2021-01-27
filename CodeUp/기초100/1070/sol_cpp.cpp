@@ -5,28 +5,33 @@ using namespace std;
 
 int main()
 {	
-	string A_s = "best!!!";
-	string B_s = "good!!";
-	string C_s = "run!";
-	string D_s = "slowly~";
-
-	char input;
-	scanf("%c",&input);
+	int input;
+	scanf("%d",&input);
 
 	switch (input)
 	{
-	case 'A':
-	cout<<A_s;
-		break;
-	case 'B':
-	cout<<B_s;
-	break;
-	case 'C':
-	cout<<C_s;
-	break;
-	case 'D':
-	cout<<D_s;
-	break;
+		case 12:
+		case 1:
+		case 2:
+			printf("winter\n");
+			break;
+
+		case 3:
+		case 4:
+		case 5:
+			printf("spring\n");
+			break;
+
+		case 6:
+		case 7:
+		case 8:
+			printf("summer\n");
+			break;
+	
+		case 9:
+		case 10:
+		case 11:
+			printf("fall\n");
+			break;
 	}
-	return 0;
 }

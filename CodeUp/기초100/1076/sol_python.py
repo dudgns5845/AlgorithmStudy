@@ -1,5 +1,8 @@
-input = int(input())
+c=input()
 
-while(input >= 1):
-    print(input)
-    input-=1
+n=ord(c)
+i=ord('a')
+
+while i<=n :
+    print(chr(i), end=' ')
+    i+=1

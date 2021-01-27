@@ -4,13 +4,11 @@ using namespace std;
 int main()
 {	
 	char input,start;
-	start = 'a'
+	start = 'a';
 	scanf("%c",&input);
 
-	while(true){
-		printf("%c\n",start++);
-		if()
-	}
-
+	do{
+		printf("%c ",start);
+	}while(input != start++);
 	return 0;
 }

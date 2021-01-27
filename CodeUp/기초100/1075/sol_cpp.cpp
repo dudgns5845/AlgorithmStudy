@@ -3,8 +3,12 @@ using namespace std;
 
 int main()
 {	
-	int n;
-	cin>> n;
-	cout<<n;
+	int input;
+	scanf("%d",&input);
+
+	while(input > 0){
+		printf("%d\n",--input);
+	}
+
 	return 0;
 }

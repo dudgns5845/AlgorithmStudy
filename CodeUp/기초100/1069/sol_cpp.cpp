@@ -27,6 +27,9 @@ int main()
 	case 'D':
 	cout<<D_s;
 	break;
+	default:
+	cout<<"what?";
+	break;
 	}
 	return 0;
 }
