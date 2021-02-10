@@ -21,7 +21,7 @@ for i in range(n):
 #지도 출력
 for i in range(n):
     for j in range(n):
-        print(board[i][j],end = ' ')
+        print(board[i][j], end = ' ')
     print()
 
 
