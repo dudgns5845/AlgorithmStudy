@@ -53,7 +53,7 @@ for _ in range(T):
     print(count)
 
 
-
+#java 스크립트는 프론트 백엔드 앱에서 모두 사용된다 
 
 """
 2
