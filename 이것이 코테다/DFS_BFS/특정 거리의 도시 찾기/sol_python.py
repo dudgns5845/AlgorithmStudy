@@ -26,5 +26,4 @@ for idx,d in enumerate(dist):
     if d == k:
         print(idx)
         break
-    else:
-        print(-1)
+    
