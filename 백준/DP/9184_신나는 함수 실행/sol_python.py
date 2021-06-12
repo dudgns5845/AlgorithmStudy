@@ -25,7 +25,7 @@ def w(a,b,c):
         return dp[a][b][c]
 
 while True:
-    a, b,c = map(int,input().split())
+    a, b,c = map(int,sys.stdin.readline().split())
 
     if a == -1 and b == -1 and c == -1:
         break
