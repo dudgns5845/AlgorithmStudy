@@ -8,7 +8,7 @@ def solution(nums):
     
     nums = list(set(nums))
     
-    if total_count > len(nums)
+    if total_count > len(nums):
         answer = len(nums)
     
     return answer
