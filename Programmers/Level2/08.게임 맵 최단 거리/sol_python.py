@@ -22,8 +22,6 @@ def solution(maps):
 
     que = deque([(0,0)])
     
-    # 경로 길이 카운트
-    count = 0
 
     while que:
         x,y = que.popleft()
