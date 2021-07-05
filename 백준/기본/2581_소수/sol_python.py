@@ -1,6 +1,7 @@
 #문제 https://www.acmicpc.net/problem/2581
-import sys
-m,n = map(int,sys.stdin.readline().split())
+
+m = int(input())
+n = int(input())
 
 prime = []
 
