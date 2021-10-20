@@ -1,6 +1,8 @@
 {
     "files.associations": {
-        "xtree": "cpp"
+        "xtree": "cpp",
+        "xstring": "cpp",
+        "vector": "cpp"
     },
     "python.pythonPath": "/usr/local/bin/python3"
 }
