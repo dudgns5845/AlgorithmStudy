@@ -3,7 +3,8 @@
         "xtree": "cpp",
         "xstring": "cpp",
         "vector": "cpp",
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "list": "cpp"
     },
     "python.pythonPath": "/usr/local/bin/python3"
 }
