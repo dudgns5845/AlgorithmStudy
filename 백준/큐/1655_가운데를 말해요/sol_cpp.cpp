@@ -41,7 +41,7 @@ int main()
             if (max_heap.top() > min_heap.top())
             {
                 int max_temp = max_heap.top();
-                int min_temp = min_heap.top();
+                int min_temp = min_heap.top(); 
                 max_heap.pop();
                 min_heap.pop();
                 max_heap.push(min_temp);
