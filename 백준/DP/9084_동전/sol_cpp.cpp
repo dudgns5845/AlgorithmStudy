@@ -6,11 +6,16 @@ int main()
     ios::sync_with_stdio(false);
     cin.tie(NULL);
     cout.tie(NULL);
+    
     int T;
+
     cin >> T;
+
     for (int i = 0; i < T; ++i)
     {
+
         int dp[10001];
+
         for (int j = 0; j < 10001; ++j)
         {
             dp[j] = 0;
