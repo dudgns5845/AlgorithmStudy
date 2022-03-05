@@ -11,6 +11,5 @@ int solution(int n, int a, int b)
         b = (b+1)/2;
         answer++;
     }
-
     return answer;
 }
