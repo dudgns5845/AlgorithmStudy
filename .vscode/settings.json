@@ -4,7 +4,8 @@
         "xstring": "cpp",
         "vector": "cpp",
         "iostream": "cpp",
-        "list": "cpp"
+        "list": "cpp",
+        "stack": "cpp"
     },
     "python.pythonPath": "/usr/local/bin/python3"
 }
