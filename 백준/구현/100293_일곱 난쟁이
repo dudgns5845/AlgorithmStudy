@@ -1,0 +1,36 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int a[9];
+int sum = 0;
+pair<int,int> ret;
+vector <int> v;
+void sol(){
+     for(int i = 0 ; i < 9 ; i++){
+        for(int j = i + 1 ; j<9;j++){
+            if(sum - a[i]-a[j]==100){
+                ret = {i,j};
+                return;
+            }
+        }
+    }
+}
+int main(){
+    for(int i =0;i<9;i++){
+        cin >> a[i];
+        sum += a[i];
+    }
+    sol();
+    for(int i = 0 ; i < 9 ; i++){
+        if(i == ret.first || i == ret.second){
+            continue;
+        }
+        v.push_back(a[i]);
+    }
+    sort(v.begin(),v.end());
+    for(int a : v){
+        cout << a << '\n';
+    }
+   
+    return 0;
+}
