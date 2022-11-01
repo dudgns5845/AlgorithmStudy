@@ -8,8 +8,6 @@ def solution(s):
         s = bin(len(s)-s.count('0'))[2:]
         if s == "1":
             break
-    
-    print(answer)
     return answer
 
 
