@@ -12,6 +12,7 @@ def solution(babbling):
 
 # 좌우 문자열 싹다 제거 
 # strip() -> replace(word, " ") -> 공백을 줄것
+# 반올림 round 올림 ceil 버림 floor
 
 # from itertools import permutations
 
