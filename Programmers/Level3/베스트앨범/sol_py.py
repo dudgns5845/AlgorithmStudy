@@ -39,6 +39,8 @@
 
 # print(solution(g,p))
 
+
+# 내풀이
 g = ["classic", "pop", "classic", "classic", "pop"]
 p = [500, 600, 150, 800, 2500]
 
